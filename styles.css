@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Basic styling for the menu bar */
+.menu-bar {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Basic styling for the sidebar */
+.sidebar {
+    background-color: #eee;
+    padding: 20px;
+    width: 20%;
+    float: left;
+}
+
+/* Basic styling for the main content */
+main {
+    width: 75%;
+    float: right;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-box img {
+    max-width: 100%;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
